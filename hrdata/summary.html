@@ -13,10 +13,14 @@
 
         <div class="sidenav">
             <h3>Summary Navigation</h3>
-            <a href="">-Data Set</a>
-            <a href="">-Technology</a>
-            <a href="">-Scenario</a>
-            <a href="">-Results</a>
+            <a href="#dataset">-Data Set</a>
+            <a href="#technology">-Technology</a>
+            <a href="#scenario">-Scenario</a>
+            <a href="#breakdown">-Breakdown</a>
+            <a href="#suggestions">-Hiring</a>
+            <a href="#offer">-Salary Offer</a>
+            <a href="#calc">-Calculator</a>
+            <a href="#future">-Future Analysis</a>
 
             <h3>Site Navigation</h3>
             <a href="../index.html">-Main Page</a>
@@ -24,10 +28,10 @@
         </div>
 
         <div class ="main">
-            <h1>Data Set</h1>
+            <h1 id="dataset">Data Set</h1>
             <a href="https://www.kaggle.com/datasets/adityaab1407/employee-productivity-and-satisfaction-hr-data">HR Data Set from Kaggle</a>
 
-            <h1>Technology</h1>
+            <h1 id="technology">Technology</h1>
             <ul>
                 <li>Python 3.11</li>
                 <li>Pandas</li>
@@ -36,15 +40,15 @@
                 <li>Seaborn</li>
             </ul>
 
-            <h1>Scenario</h1>
+            <h1 id="scenario">Scenario</h1>
             <p>The HR team has collected the data to better understand the company’s landscape. They would like to answer the following questions:</p>
             <ol>
                 <li>We would like to know the breakdown of current employees. We've been given more resources for new hires and are looking to fill potential holes in the various teams. <br>Can you make any suggestions as to which teams may require more assistance?</li>
                 <li>We need to update our new hire salary offers to better match our current employees. Could you provide us with offer suggestions based on department and position? </li>
             </ol>
 
-            <h1>Results</h1>
-            <h2>Employee Breakdown</h2>
+            <h1 id="results">Results</h1>
+            <h2 id="breakdown">Employee Breakdown</h2>
 
             <div class="slideshow-container">
 
@@ -101,10 +105,8 @@
             If the Junior Developer role leads into the Senior Developer role, and similarly the Analyst role leads into the Team Lead role, we have a large gap in terms of average company years.
             The Developer and Analyst would on average spend roughly 10 years in these roles before moving upward.
             If this is by design, then feel free to disregard, but if not, this may be an area we could look at implementing programs/training to help facilitate career advancement.
-            <p>
-            </p>
 
-            <h2>Hiring Suggestions</h2>
+            <h2 id="suggestions">Hiring Suggestions</h2>
             <p>
                 More employees hold the manager position than any other in the company.
                 Let’s dig a little deeper to see which teams have the most managers, maybe they would be able to take on more junior new hires.
@@ -164,7 +166,7 @@
             This suggests that the companies support oriented departments may have fewer projects in total, but those projects tend to be larger in scope than the projects of the forward-facing departments.
         </p>
 
-        <h2>Salary Offer Suggestions</h2>
+        <h2 id="offer">Salary Offer Suggestions</h2>
         <br>
         <div class="slideshow-container">
 
@@ -240,24 +242,58 @@
         </p>
         <p>
         Salary Offer Suggestion: Since we don't have a great way to gauge a potential new hire's Completed Projects, we will use their experience as the independent variable in the linear regression from the Company Years vs Salary plot.
-        We will then threshold the estimation with the Minimum or Maximum for the current employees in the same department's position.
+        We will then threshold the estimation with the Minimum or Maximum for the current employees in the same department's position. Let's consider the following example: We would liek to make a salary offer
+        to a Senior Developer candidate looking to join the HR department with 12 years of experience. First we calculate the salary offer based on the candidates years of experience:
+        </p>
+        <h2>
+            Regression Formula: 3189.09 * (12) + 48013.07 = $86,282.00
+        </h2>
+        <p>
+            Then we compare the offer to our current Senior Developers in the HR department, they make between $80,513.00 and $94,290.00, we consider the calculated
+            offer good as it falls within the current employee salary bounds. If it fell outside these bounds, we would adjust our offer to the current salary minimum or maximum.
         </p>
     <br>
-    <h2>Salary Calculator</h2>
-    <h3>Regression line: y = 3189.09x + 48013.07</h3>
-    <p>TODO: Implement calculator with thresholding from notebook</p>
+    <h2 id="calc">Salary Calculator</h2>
+    <p id="result"></p>
+    <p id="result2"</p>
     <br>
-    <form name="form1" id="form1" action="javascript.calcOffer()">
-        Department: <select name="department" id="department">
-            <option value="" selected="selected">Select Department</option>
+    <form name="form1" id="form1" action="javascript:calcOffer()">
+        <label for="dept">Choose a Department: </label>
+        <select name="dept" id="dept">
+            <option value="Finance">Finance</option>
+            <option value="IT">IT</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Sales">Sales</option>
+            <option value="HR">HR</option>
         </select>
-        <br><br>
-        Position: <select name="position" id="position">
-            <option value="" selected="selected">Please select department first</option>
+
+        <label for="pos">Choose a Position: </label>
+        <select name="pos" id="pos">
+            <option value="Intern">Intern</option>
+            <option value="Junior Developer">Junior Developer</option>
+            <option value="Analyst">Analyst</option>
+            <option value="Senior Developer">Senior Developer</option>
+            <option value="Team Lead">Team Lead</option>
+            <option value="Manager">Manager</option>
         </select>
+
+        <label for="exper">Years of Experience: </label>
+            <input type="number" id="exper" min="0">
+
         <br><br>
-  <input type="submit" value="Submit">
-  <script type="text/javascript" src="js/salcalc.js"></script>
-</form>
+        <input type="submit" value="Submit">
+        <script type="text/javascript" src="js/salcalc.js"></script>
+    </form>
+
+    <h2 id="future">Future Analysis</h2>
+        <p>
+           With more time and resources, I would've liked to dive into the question of employee happiness. The dataset contains two features related to
+            this idea: Satisfaction Rate (%) and Feedback Score. Neither of the two features share a moderate correlation with any other feature in the dataset.
+            I attempted to look at the top and bottom 10% of employees based on these two features, still no real correlation with any other features. If I had more
+            time and resources I'd like to collect the manager data for each employee, maybe their satisfaction is predicated on a particular management style.
+            One final feature I would like to see is employment status, a field to determine if an employee was still with the company. Then over time we could
+            look to see what factors may cause an employee to leave the company and attempt to predict what factors are critical to employee retention.
+        </p>
+    </div>
     </body>
 </html>
