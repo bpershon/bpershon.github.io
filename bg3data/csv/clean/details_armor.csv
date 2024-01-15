@@ -1,0 +1,14 @@
+﻿item_id,name,ac,weight,requirements,stealth,category,type
+01-Por,Padded,11 + Dex,8 lb.,,Disadvantage,Light Armor,armor
+02-Lor,Leather,11 + Dex,10 lb.,,,Light Armor,armor
+03-Sor,Studded Leather,12 + Dex,13 lb.,,,Light Armor,armor
+04-Hor,Hide,12 + Dex(max2),12 lb.,,,Medium Armor,armor
+05-Cor,Chain Shirt,13 + Dex(max2),20 lb.,,,Medium Armor,armor
+06-Sor,Scail Mail,14 + Dex(max2),45 lb.,,Disadvantage,Medium Armor,armor
+07-Bor,Breastplate,14 + Dex(max2),20 lb.,,,Medium Armor,armor
+08-Hor,Half Plate,15 + Dex(max2),40 lb.,,Disadvantage,Medium Armor,armor
+09-Ror,Ring Mail,14,40 lb.,,Disadvantage,Heavy Armor,armor
+10-Cor,Chain Mail,16,55 lb.,Strength 13,Disadvantage,Heavy Armor,armor
+11-Sor,Splint,17,60 lb.,Strength 15,Disadvantage,Heavy Armor,armor
+12-Por,Plate,18,65 lb.,Strength 15,Disadvantage,Heavy Armor,armor
+13-Sor,Shields,,6 lb.,,,Heavy Armor,armor

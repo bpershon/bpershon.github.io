@@ -1,0 +1,109 @@
+﻿item_id,name,weight,category,type
+01-Ars,Abacus,2 lb,Others,adventure_gear
+02-Ars,Acid (vial),1 lb,Others,adventure_gear
+03-Ars,Alchemist's Fire (flask),1 lb,Others,adventure_gear
+04-Aon,Arrows (20),1 lb,Ammunition,adventure_gear
+05-Bon,Blowgun Needle (50),1 lb,Ammunition,adventure_gear
+06-Con,Crossbow Bolts (20),15 lb,Ammunition,adventure_gear
+07-Son,Sling Bullets (20),15 lb,Ammunition,adventure_gear
+08-Cus,Crystal,1 lb,Arcane Focus,adventure_gear
+09-Ous,Orb,3 lb,Arcane Focus,adventure_gear
+10-Rus,Rod,2 lb,Arcane Focus,adventure_gear
+11-Sus,Staff,4 lb,Arcane Focus,adventure_gear
+12-Wus,Wand,1 lb,Arcane Focus,adventure_gear
+13-Brs,Backpack,5 lb,Others,adventure_gear
+14-Brs,Ball Bearings (bag of 1000),2 lb,Others,adventure_gear
+15-Brs,Barrel,70 lb,Others,adventure_gear
+16-Brs,Basket,2 lb,Others,adventure_gear
+17-Brs,Bedroll,7 lb,Others,adventure_gear
+18-Brs,Bell,-,Others,adventure_gear
+19-Brs,Blanket,3 lb,Others,adventure_gear
+20-Brs,Block and Tackle,5 lb,Others,adventure_gear
+21-Brs,Book,5 lb,Others,adventure_gear
+22-Brs,Bottle Glass,2 lb,Others,adventure_gear
+23-Brs,Bucket,2 lb,Others,adventure_gear
+24-Crs,Caltrops (bag of 20),2 lb,Others,adventure_gear
+25-Crs,Candle,-,Others,adventure_gear
+26-Crs,Case Crossbow Bolt,1 lb,Others,adventure_gear
+27-Crs,Case Map and Scroll,1 lb,Others,adventure_gear
+28-Crs,Chain (10ft),10 lb,Others,adventure_gear
+29-Crs,Chalk (1 piece),-,Others,adventure_gear
+30-Crs,Chest,25 lb,Others,adventure_gear
+31-Crs,Climber's kit,12 lb,Others,adventure_gear
+32-Crs,Clothes Common,3 lb,Others,adventure_gear
+33-Crs,Clothes Costume,4 lb,Others,adventure_gear
+34-Crs,Clothes Fine,6 lb,Others,adventure_gear
+35-Crs,Clothes Traveler's,4 lb,Others,adventure_gear
+36-Crs,Component Pouch,2 lb,Others,adventure_gear
+37-Crs,Crowbar,5 lb,Others,adventure_gear
+39-Sus,Sprig of Mistletoe,-,Druidic Focus,adventure_gear
+40-Tus,Totem,-,Druidic Focus,adventure_gear
+41-Wus,Wooden Staff,4 lb,Druidic Focus,adventure_gear
+42-Yus,Yew Wand,1 lb,Druidic Focus,adventure_gear
+43-Frs,Flask or Tankard,4 lb,Others,adventure_gear
+44-Frs,Flask or Tankard,1 lb,Others,adventure_gear
+45-Grs,Grappling Hook,4 lb,Others,adventure_gear
+46-Hrs,Hammer,3 lb,Others,adventure_gear
+47-Hrs,Hammer Sledge,10 lb,Others,adventure_gear
+48-Hrs,Healer's kit,3 lb,Others,adventure_gear
+49-Aol,"Amulet "," 1 Ib",Holy Symbol,adventure_gear
+50-Eol,"Emblem ",-,Holy Symbol,adventure_gear
+51-Rol,"Reliquary ",2 lb,Holy Symbol,adventure_gear
+52-Hrs,Holy water (flask),1 lb,Others,adventure_gear
+53-Hrs,"Hourglass ",1 lb,Others,adventure_gear
+54-Hrs,Hunting Trap,25 lb,Others,adventure_gear
+55-Irs,Ink (1 ounce bottle),-,Others,adventure_gear
+56-Irs,Ink pen,,Others,adventure_gear
+57-Jrs,Jug or pitcher,4 lb,Others,adventure_gear
+58-Lrs,Ladder (10-foot),25 lb,Others,adventure_gear
+59-Lrs,Lamp,1 lb,Others,adventure_gear
+60-Lrs,Lantern Bullseye,2 lb,Others,adventure_gear
+61-Lrs,Lantern hooded,2 lb,Others,adventure_gear
+62-Lrs,Lock,1 lb,Others,adventure_gear
+63-Mrs,Magnifying glass,-,Others,adventure_gear
+64-Mrs,Manacles,6 lb,Others,adventure_gear
+65-Mrs,Mess ki,1 lb,Others,adventure_gear
+66-Mrs,Mirror steel,25 lb,Others,adventure_gear
+67-Ors,Oil (flask),1 lb,Others,adventure_gear
+68-Prs,Paper (one sheet),-,Others,adventure_gear
+69-Prs,Parchment (one sheet),-,Others,adventure_gear
+70-Prs,Perfume (vial),-,Others,adventure_gear
+71-Prs,Pick miner's,10 lb,Others,adventure_gear
+72-Prs,Piton,25 lb,Others,adventure_gear
+73-Prs,Poison basic (vial),-,Others,adventure_gear
+74-Prs,Pole (10-foot),7 lb,Others,adventure_gear
+75-Prs,Pot iron,10 lb,Others,adventure_gear
+76-Prs,Potion of healing,5 lb,Others,adventure_gear
+77-Prs,Pouch,1 lb,Others,adventure_gear
+78-Qrs,Quiver,1 lb,Others,adventure_gear
+79-Rrs,Ram portable,35 lb,Others,adventure_gear
+80-Rrs,Rations (l day),2 lb,Others,adventure_gear
+81-Rrs,Robes,4 lb,Others,adventure_gear
+82-Rrs,Rope hempen (50 feet),10 lb,Others,adventure_gear
+83-Rrs,Rope silk (50 feet),5 lb,Others,adventure_gear
+84-Srs,Sack,5 lb,Others,adventure_gear
+85-Srs,Scale merchant's,3 lb,Others,adventure_gear
+86-Srs,Sealing wax,-,Others,adventure_gear
+87-Srs,Shovel,5 lb,Others,adventure_gear
+88-Srs,Signal whistle,-,Others,adventure_gear
+89-Srs,Signe! ring,-,Others,adventure_gear
+90-Srs,Soap,-,Others,adventure_gear
+91-Srs,Spellbook,3 lb,Others,adventure_gear
+92-Srs,Spikes iron (10),5 lb,Others,adventure_gear
+93-Srs,Spyglass,1 lb,Others,adventure_gear
+94-Trs,Tent two-person,20 lb,Others,adventure_gear
+95-Trs,Tinderbox,1 lb,Others,adventure_gear
+96-Trs,Torch,1 lb,Others,adventure_gear
+97-Vrs,Vial,-,Others,adventure_gear
+98-Wrs,Waterskin,(Full) 5 lb,Others,adventure_gear
+99-Wrs,Whetstone,1 lb,Others,adventure_gear
+100-Bnt,Bagpipe,6 lb,Musical instrument,adventure_gear
+101-Dnt,Drum,3 lb,Musical instrument,adventure_gear
+102-Dnt,Dulcimer,10 lb,Musical instrument,adventure_gear
+103-Fnt,Flute,1 lb,Musical instrument,adventure_gear
+104-Lnt,Lute,2 lb,Musical instrument,adventure_gear
+105-Lnt,Lyre,2 lb,Musical instrument,adventure_gear
+106-Hnt,Horn,2 lb,Musical instrument,adventure_gear
+107-Pnt,Pan Flute,2 lb,Musical instrument,adventure_gear
+108-Snt,Shawm,1 lb,Musical instrument,adventure_gear
+109-Vnt,Viol,1 lb,Musical instrument,adventure_gear

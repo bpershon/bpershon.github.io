@@ -1,7 +1,10 @@
 body {
   font-family: "Lato", sans-serif;
   background-color: black;
-  color: white;
+}
+
+h1 {
+    color: white;
 }
 
 .sidenav {
@@ -23,18 +26,11 @@ body {
   display: block;
 }
 
-.sidenav h4 {
-  padding: 6px 6px 6px 6px;
-  text-decoration: underline;
-  color: white;
-  display: block;
-}
-
 .sidenav a {
-  padding: 0px 6px 6px 32px;
+  padding: 6px 6px 6px 32px;
   text-decoration: none;
   font-size: 20px;
-  color: cyan;
+  color: white;
   display: block;
 }
 
@@ -44,33 +40,37 @@ body {
 
 .main {
   margin-left: 200px; /* Same as the width of the sidenav */
+  color: white;
 }
 
-.container {
-display: grid;
-align-items: center;
-grid-template-columns: 1fr 1fr;
-column-gap: 5px;
-margin-left: 100px;
+.main a {
+    color: cyan;
 }
 
-img {
-max-width: 80%;
-max-height: 80%;
+.code-img-parent {
+    display: flex;
 }
 
-.aboutme {
-    padding-left: 100px;
-    padding-right: 250px;
+.code-img-child {
+    flex: 1;
 }
 
-.parent {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
-    width: 100%;
+.code-img-child img {
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.child {
-    padding-left: 100px;
+.imgsidecont::after{
+    content: "";
+    clear: both;
+    display:table;
 }
+
+.imgside {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+

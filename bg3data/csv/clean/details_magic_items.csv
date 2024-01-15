@@ -1,0 +1,200 @@
+﻿item_id,name,rarity,category,type
+001-ACo,Ammunition +1 (Per),Uncommon,Consumable Items,magic_item
+002-ACo,Ammunition +2 (Per),Rare,Consumable Items,magic_item
+005-BCo,Bead of Force,Rare,Consumable Items,magic_item
+006-CCo,Chime of Opening,Rare,Consumable Items,magic_item
+007-DCo,Deck of Illusions,Uncommon,Consumable Items,magic_item
+008-DCo,Dust of Disappearance,Uncommon,Consumable Items,magic_item
+009-DCo,Dust of Dryness(Per Pinch),Uncommon,Consumable Items,magic_item
+010-DCo,Dust of Sneezing and Choking,Uncommon,Consumable Items,magic_item
+011-ECo,Elemental Gem,Uncommon,Consumable Items,magic_item
+012-GCo,Gem of Brightness,Uncommon,Consumable Items,magic_item
+013-HCo,Horn of Blasting,Rare,Consumable Items,magic_item
+016-KCo,Keoghtom's Ointment (1 Dose),Uncommon,Consumable Items,magic_item
+023-NCo,Necklace of Fireballs (1 bead),Rare,Consumable Items,magic_item
+024-NCo,Necklace of Fireballs (2 beads),Rare,Consumable Items,magic_item
+025-NCo,Necklace of Fireballs (3 beads),Rare,Consumable Items,magic_item
+026-NCo,Necklace of Fireballs (4 beads),Rare,Consumable Items,magic_item
+027-NCo,Necklace of Fireballs (5 beads),Rare,Consumable Items,magic_item
+028-NCo,Necklace of Fireballs (6 beads),Rare,Consumable Items,magic_item
+030-QCo,Quaal's Feather Token Anchor,Rare,Consumable Items,magic_item
+031-QCo,Quaal's Feather Token Bird,Rare,Consumable Items,magic_item
+032-QCo,Quaal's Feather Token Fan,Rare,Consumable Items,magic_item
+033-QCo,Quaal's Feather Token Swan Boat,Rare,Consumable Items,magic_item
+034-QCo,Quaal's Feather Token Tree,Rare,Consumable Items,magic_item
+035-QCo,Quaal's Feather Token Whip,Rare,Consumable Items,magic_item
+036-RCo,Robe of Useful Items,Uncommon,Consumable Items,magic_item
+038-SCo,Scroll of Protection,Rare,Consumable Items,magic_item
+040-SCo,Spell Scroll Level 0,Common,Consumable Items,magic_item
+041-SCo,Spell Scroll Level 1,Common,Consumable Items,magic_item
+042-SCo,Spell Scroll Level 2,Uncommon,Consumable Items,magic_item
+043-SCo,Spell Scroll Level 3,Uncommon,Consumable Items,magic_item
+044-SCo,Spell Scroll Level 4,Rare,Consumable Items,magic_item
+045-SCo,Spell Scroll Level 5,Rare,Consumable Items,magic_item
+053-ANo,Alchemy Jug,Uncommon,Non Combat Items,magic_item
+054-ANo,Amulet of Proof Against Detection and Location,Uncommon,Non Combat Items,magic_item
+057-BNo,Bag of Holding,Uncommon,Non Combat Items,magic_item
+058-BNo,Boots of Elvenkind,Uncommon,Non Combat Items,magic_item
+059-BNo,Boots of Levitation,Rare,Non Combat Items,magic_item
+060-BNo,Boots of Striding and Springing,Uncommon,Non Combat Items,magic_item
+061-BNo,Boots of the Winterlands,Uncommon,Non Combat Items,magic_item
+062-BNo,Broom of Flying,Uncommon,Non Combat Items,magic_item
+063-CNo,Cap of Water Breathing,Uncommon,Non Combat Items,magic_item
+064-CNo,Cape of the Mountebank,Rare,Non Combat Items,magic_item
+070-CNo,Cloak of Elvenkind,Uncommon,Non Combat Items,magic_item
+072-CNo,Cloak of the Bat,Rare,Non Combat Items,magic_item
+073-CNo,Cloak of the Manta Ray,Uncommon,Non Combat Items,magic_item
+075-CNo,Cube of Force,Rare,Non Combat Items,magic_item
+077-DNo,Daern's Instant Fortress,Rare,Non Combat Items,magic_item
+078-DNo,Decanter of Endless Water,Uncommon,Non Combat Items,magic_item
+079-DNo,Dimensional Shackles,Rare,Non Combat Items,magic_item
+080-DNo,Driftglobe,Uncommon,Non Combat Items,magic_item
+081-ENo,Eversmoking Bottle,Uncommon,Non Combat Items,magic_item
+082-ENo,Eyes of Charming,Uncommon,Non Combat Items,magic_item
+083-ENo,Eyes of Minute Seeing,Uncommon,Non Combat Items,magic_item
+084-ENo,Eyes of the Eagle,Uncommon,Non Combat Items,magic_item
+085-FNo,Folding Boat,Rare,Non Combat Items,magic_item
+086-GNo,Gem of Seeing,Rare,Non Combat Items,magic_item
+087-GNo,Gloves of Swimming and Climbing,Uncommon,Non Combat Items,magic_item
+088-GNo,Gloves of Thievery,Uncommon,Non Combat Items,magic_item
+089-GNo,Goggles of Night,Uncommon,Non Combat Items,magic_item
+090-HNo,Hat of Disguise,Uncommon,Non Combat Items,magic_item
+091-HNo,Helm of Comprehend Languages,Uncommon,Non Combat Items,magic_item
+092-HNo,Helm of Telepathy,Uncommon,Non Combat Items,magic_item
+093-HNo,Heward's Handy Haversack,Rare,Non Combat Items,magic_item
+094-HNo,Horseshoes of Speed,Rare,Non Combat Items,magic_item
+096-INo,Immovable Rod,Uncommon,Non Combat Items,magic_item
+097-INo,Ioun Stone Sustenance,Rare,Non Combat Items,magic_item
+098-LNo,Lantern of Revealing,Uncommon,Non Combat Items,magic_item
+099-MNo,Medallion of Thoughts,Uncommon,Non Combat Items,magic_item
+101-NNo,Necklace of Adaption,Uncommon,Non Combat Items,magic_item
+102-PNo,Periapt of Health,Uncommon,Non Combat Items,magic_item
+103-PNo,Periapt of Proof Against Poison,Rare,Non Combat Items,magic_item
+104-PNo,Portable Hole,Rare,Non Combat Items,magic_item
+105-QNo,Quiver of Ehlonna,Uncommon,Non Combat Items,magic_item
+107-RNo,Ring of Animal Influence,Rare,Non Combat Items,magic_item
+110-RNo,Ring of Jumping,Uncommon,Non Combat Items,magic_item
+111-RNo,Ring of Mind Shielding,Uncommon,Non Combat Items,magic_item
+112-RNo,Ring of Swimming,Uncommon,Non Combat Items,magic_item
+115-RNo,Ring of Warmth,Uncommon,Non Combat Items,magic_item
+116-RNo,Ring of Water Walking,Uncommon,Non Combat Items,magic_item
+117-RNo,Ring of X-Ray Vision,Rare,Non Combat Items,magic_item
+119-RNo,Rod of Rulership,Rare,Non Combat Items,magic_item
+120-RNo,Rope of Climbing,Uncommon,Non Combat Items,magic_item
+121-SNo,Sending Stones,Uncommon,Non Combat Items,magic_item
+122-SNo,Slippers of Spider Climbing,Uncommon,Non Combat Items,magic_item
+124-TNo,Trident of Fish Command,Uncommon,Non Combat Items,magic_item
+125-WNo,Wand of Magic Detection,Uncommon,Non Combat Items,magic_item
+126-WNo,Wand of Secrets,Uncommon,Non Combat Items,magic_item
+127-WNo,Winged Boots,Uncommon,Non Combat Items,magic_item
+128-WNo,Wings of Flying,Rare,Non Combat Items,magic_item
+129-BSu,Bowl of Commanding Water Elementals,Rare,Summons / Pets,magic_item
+130-BSu,Brass Horn of Valhalla,Rare,Summons / Pets,magic_item
+131-BSu,Brazier of Commanding Fire Elementals,Rare,Summons / Pets,magic_item
+132-BSu,Bronze Griffon,Rare,Summons / Pets,magic_item
+134-CSu,Censer of Controlling Air Elementals,Rare,Summons / Pets,magic_item
+135-ESu,Ebony Fly,Rare,Summons / Pets,magic_item
+136-GSu,Goldean Lion,Rare,Summons / Pets,magic_item
+138-ISu,Ivory Goat (Terror),Rare,Summons / Pets,magic_item
+139-ISu,Ivory Goat (Travail),Rare,Summons / Pets,magic_item
+140-ISu,Ivory Goat (Traveling),Rare,Summons / Pets,magic_item
+141-MSu,Marble Elephant,Rare,Summons / Pets,magic_item
+143-OSu,Onyx Dog,Rare,Summons / Pets,magic_item
+144-SSu,Serpentine Owl,Rare,Summons / Pets,magic_item
+145-SSu,Silver Horn of Valhalla,Rare,Summons / Pets,magic_item
+146-SSu,Silver Raven,Uncommon,Summons / Pets,magic_item
+147-SSu,Staff of the Python,Uncommon,Summons / Pets,magic_item
+148-SSu,Stone of Controlling Earth Elementals,Rare,Summons / Pets,magic_item
+149-(Co,(+1) Weapon,Uncommon,Combat Items,magic_item
+150-(Co,(+2) Weapon,Rare,Combat Items,magic_item
+152-(Co,(+1) Armor,Rare,Combat Items,magic_item
+155-(Co,(+1) Shield,Uncommon,Combat Items,magic_item
+156-(Co,(+2) Shield,Rare,Combat Items,magic_item
+158-VCo,Vicious Weapon,Rare,Combat Items,magic_item
+159-SCo,Sword of Life-Stealing,Rare,Combat Items,magic_item
+160-SCo,Sword of Sharpness,Rare,Combat Items,magic_item
+163-SCo,Sword of Wounding,Rare,Combat Items,magic_item
+164-FCo,Flame Tongue,Rare,Combat Items,magic_item
+168-SCo,Sunblade,Rare,Combat Items,magic_item
+174-JCo,Javelin of Lightning,Uncommon,Combat Items,magic_item
+175-DCo,Dagger of Venom,Rare,Combat Items,magic_item
+177-WCo,Weapon of Warning,Uncommon,Combat Items,magic_item
+178-DCo,Dragon Slayer,Rare,Combat Items,magic_item
+180-GCo,Giant Slayer,Rare,Combat Items,magic_item
+181-MCo,Mace of Smiting,Rare,Combat Items,magic_item
+182-MCo,Mace of Disruption,Rare,Combat Items,magic_item
+183-MCo,Mace of Terror,Rare,Combat Items,magic_item
+184-ICo,Ioun Stone Protection,Rare,Combat Items,magic_item
+185-ICo,Ioun Stone Reserve,Rare,Combat Items,magic_item
+193-ICo,Ioun Stone Awareness,Rare,Combat Items,magic_item
+195-SCo,Staff of Withering,Rare,Combat Items,magic_item
+197-SCo,Staff of the Adder,Uncommon,Combat Items,magic_item
+200-SCo,Staff of Swarming Insects,Rare,Combat Items,magic_item
+201-SCo,Staff of Charming,Rare,Combat Items,magic_item
+202-SCo,Staff of Healing,Rare,Combat Items,magic_item
+205-SCo,Staff of the Woodlands,Rare,Combat Items,magic_item
+206-WCo,Wand of Enemy Detection,Rare,Combat Items,magic_item
+207-WCo,Wand of Magic Missiles,Uncommon,Combat Items,magic_item
+208-WCo,Wand of Web,Uncommon,Combat Items,magic_item
+209-WCo,Wand of Binding,Rare,Combat Items,magic_item
+210-WCo,Wand of Fear,Rare,Combat Items,magic_item
+211-WCo,Wand of Paralysis,Rare,Combat Items,magic_item
+212-WCo,Wand of Fireballs,Rare,Combat Items,magic_item
+213-WCo,Wand of Lightning Bolts,Rare,Combat Items,magic_item
+215-WCo,Wand of the War Mage +1,Uncommon,Combat Items,magic_item
+216-WCo,Wand of the War Mage +2,Rare,Combat Items,magic_item
+218-TCo,Tentacle Rod,Rare,Combat Items,magic_item
+221-RCo,Rod of the Pact Keeper +1,Uncommon,Combat Items,magic_item
+222-RCo,Rod of the Pact Keeper +2,Rare,Combat Items,magic_item
+225-ACo,Armor of Resistance,Rare,Combat Items,magic_item
+226-ACo,Adamantine Armor,Uncommon,Combat Items,magic_item
+227-MCo,Mithral Armor,Uncommon,Combat Items,magic_item
+228-MCo,Mariner's Armor,Uncommon,Combat Items,magic_item
+231-GCo,Glamoured Armor,Rare,Combat Items,magic_item
+234-ECo,Elven Chain,Rare,Combat Items,magic_item
+235-MCo,Mantle of Spell Resistance,Rare,Combat Items,magic_item
+239-RCo,Robe of Eyes,Rare,Combat Items,magic_item
+240-HCo,Helm of Teleportation,Rare,Combat Items,magic_item
+242-ACo,Arrow-Catching Shield,Rare,Combat Items,magic_item
+243-SCo,Shield of Missile Attraction,Rare,Combat Items,magic_item
+244-SCo,Sentinel Shield,Uncommon,Combat Items,magic_item
+246-BCo,Bracers of Archery,Uncommon,Combat Items,magic_item
+247-PCo,Periapt of Wound Closure,Uncommon,Combat Items,magic_item
+248-BCo,Boots of Speed,Rare,Combat Items,magic_item
+249-ICo,Iron Bands of Bilarro,Rare,Combat Items,magic_item
+250-CCo,Circlet of Blasting,Uncommon,Combat Items,magic_item
+251-PCo,Pipes of the Sewers,Uncommon,Combat Items,magic_item
+252-RCo,Rope of Entanglement,Rare,Combat Items,magic_item
+253-LCo,Luckstone,Uncommon,Combat Items,magic_item
+254-SCo,Saddle of the Cavalier,Uncommon,Combat Items,magic_item
+255-WCo,Wind Fan,Uncommon,Combat Items,magic_item
+256-GCo,Gloves of Missile Snaring,Uncommon,Combat Items,magic_item
+257-CCo,Cloak of Protection,Uncommon,Combat Items,magic_item
+258-BCo,Belt of Dwarvenkind,Rare,Combat Items,magic_item
+259-BCo,Belt of Hill Giant Strength,Rare,Combat Items,magic_item
+265-BCo,Bracers of Defense,Rare,Combat Items,magic_item
+266-PCo,Pearl of Power,Uncommon,Combat Items,magic_item
+267-PCo,Pipes of Haunting,Uncommon,Combat Items,magic_item
+268-BCo,Brooch of Shielding,Uncommon,Combat Items,magic_item
+269-ACo,Amulet of Health,Rare,Combat Items,magic_item
+270-GCo,Gauntlets of Ogre Power,Uncommon,Combat Items,magic_item
+271-HCo,Headband of Intellect,Uncommon,Combat Items,magic_item
+272-RCo,Ring of Resistance,Rare,Combat Items,magic_item
+273-RCo,Ring of Protection,Rare,Combat Items,magic_item
+274-RCo,Ring of Evasion,Rare,Combat Items,magic_item
+277-RCo,Ring of Free Action,Rare,Combat Items,magic_item
+279-RCo,Ring of Spell Storing,Rare,Combat Items,magic_item
+281-RCo,Ring of the Ram,Rare,Combat Items,magic_item
+282-RCo,Ring of Feather Falling,Rare,Combat Items,magic_item
+285-CCo,Cloak of Displacement,Rare,Combat Items,magic_item
+286-PCo,Prayer Bead - Bless,Rare,Combat Items,magic_item
+287-PCo,Prayer Bead - Smiting,Rare,Combat Items,magic_item
+288-PCo,Prayer Bead - Curing,Rare,Combat Items,magic_item
+289-PCo,Prayer Bead - Wind Walking,Rare,Combat Items,magic_item
+290-PCo,Prayer Bead - Greater Restoration,Rare,Combat Items,magic_item
+291-PCo,Prayer Bead - Summons,Rare,Combat Items,magic_item
+292-ICo,Instrument of the Bards - Cli Lyre,Rare,Combat Items,magic_item
+293-ICo,Instrument of the Bards - Fochulan Bandlore,Uncommon,Combat Items,magic_item
+294-ICo,Instrument of the Bards - Mac-Fuirmidh Cittern,Uncommon,Combat Items,magic_item
+295-ICo,Instrument of the Bards - Doss Lute,Uncommon,Combat Items,magic_item
+296-ICo,Instrument of the Bards - Canaith Mandolin,Rare,Combat Items,magic_item

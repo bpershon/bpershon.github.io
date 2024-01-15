@@ -1,0 +1,23 @@
+﻿item_id,name,rarity,type
+01-Pon,Potion of Healing,Common,potion
+02-Pon,Potion of Greater Healing,Uncommon,potion
+03-Pre,Potion of Superior Healing,Rare,potion
+05-Ere,Elixir of Health,Rare,potion
+06-Pon,Potion of Poison,Uncommon,potion
+07-Pon,Philter of Love,Uncommon,potion
+08-Pon,Potion of Fire Breath,Uncommon,potion
+09-Pon,Potion of Climbing,Common,potion
+10-Pre,Potion of Heroism,Rare,potion
+12-Pre,Potion of Mind Reading,Rare,potion
+13-Pon,Potion of Water Breathing,Uncommon,potion
+14-Pon,Potion of Animal Friendship,Uncommon,potion
+15-Pre,Potion of Diminution,Rare,potion
+16-Pon,Potion of Growth,Uncommon,potion
+17-Pre,Potion of Gaseous Form,Rare,potion
+18-Pon,Potion of Resistance,Uncommon,potion
+21-Pre,Potion of Clairvoyance,Rare,potion
+24-Ore,Oil of Etherealness,Rare,potion
+26-Oon,Oil of Slipperiness,Uncommon,potion
+28-Pon,Potion of Hill Giant Strength,Uncommon,potion
+29-Pre,Potion of Frost Giant Strength,Rare,potion
+30-Pre,Potion of Fire Giant Strength,Rare,potion

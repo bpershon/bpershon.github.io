@@ -1,0 +1,14 @@
+https://www.kaggle.com/datasets/patrickleal/baldurs-gate-inside-sales-quest?select=adventurer_mart.db
+
+Power BI links:
+https://app.powerbi.com/view?r=eyJrIjoiYTI5OTMxZjYtNjc2OC00ODljLTg3ZDQtYWI1ZWQ5NWYyZTU5IiwidCI6ImU5NGE2YjI3LTZmOTgtNDUyMC04OGFiLTdjZmYyNGYwMmIyYSIsImMiOjN9
+<iframe title="bg3report" width="1024" height="1060" src="https://app.powerbi.com/view?r=eyJrIjoiYTI5OTMxZjYtNjc2OC00ODljLTg3ZDQtYWI1ZWQ5NWYyZTU5IiwidCI6ImU5NGE2YjI3LTZmOTgtNDUyMC04OGFiLTdjZmYyNGYwMmIyYSIsImMiOjN9" frameborder="0" allowFullScreen="true"></iframe>
+
+Questions:
+1. Can you show me our revenue year by year?
+2. Which products are the most profitable?
+3. What category of products are most profitable?
+4. What do our customer demographics look like?
+5. Is there any race/class/gender's we should be catering to?
+6. Who are our most loyal customers? We would like to send them special deals/info.
+

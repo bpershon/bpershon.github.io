@@ -1,0 +1,17 @@
+﻿item_id,name,category,dc,type
+01-Aed,Assassin's blood,Ingested,10,poison
+02-Ted,Truth serum,Ingested,11,poison
+03-Cct,Carrion crawler mucus,Contact,13,poison
+04-Dry,Drow poison,Injury,13,poison
+05-Sry,Serpent venom,Injury,11,poison
+06-Med,Malice,Inhaled,15,poison
+07-Ped,Pale tincture,Ingested,16,poison
+08-Eed,Essence of ether,Inhaled,15,poison
+9-Oct,Oil of taggit,Contact,13,poison
+10-Bed,Burnt othur fumes,Inhaled,13,poison
+11-Ted,Torpor,Ingested,15,poison
+12-Wry,Wyvern poison,Injury,15,poison
+13-Med,Midnight tears,Ingested,17,poison
+14-Pry,Purple worm poison,Injury,19,poison
+15-Aed,Antitoxin,Ingested,,poison
+16-Bct,Basic Poison,Contact,10,poison
