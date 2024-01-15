@@ -58,25 +58,20 @@ DELETE FROM [bg3].[dbo].[sales]
 WHERE product_id like '';
 
 -- Delete duplicate rows from the sales table, 3,794
-WITH CTE([sale_id], 
-    [date], 
-    [customer_id],
-	[product_id],
-	[quantity],
-    duplicatecount)
-AS (SELECT	[sale_id], 
-			[date], 
-			[customer_id],
-			[product_id],
-			[quantity], 
-           ROW_NUMBER() OVER(PARTITION BY	[sale_id], 
-											[date], 
-											[customer_id],
-											[product_id],
-											[quantity]
-           ORDER BY sale_id) AS DuplicateCount
-    FROM [bg3].[dbo].[sales])
-DELETE FROM CTE
-WHERE DuplicateCount > 1;
+WITH cte([sale_id], [date], [customer_id], [product_id], [quantity],
+     duplicatecount)
+     AS (SELECT [sale_id],
+                [date],
+                [customer_id],
+                [product_id],
+                [quantity],
+                Row_number()
+                  OVER(
+                    partition BY [sale_id], [date], [customer_id], [product_id],
+                  [quantity]
+                    ORDER BY sale_id) AS DuplicateCount
+         FROM   [bg3].[dbo].[sales])
+DELETE FROM cte
+WHERE  duplicatecount > 1;
 
 
