@@ -51,12 +51,18 @@ display: grid;
 align-items: center;
 grid-template-columns: 1fr 1fr;
 column-gap: 5px;
+}
+
+.container img {
+max-width: 80%;
+max-height: 80%;
 margin-left: 100px;
 }
 
-img {
-max-width: 80%;
-max-height: 80%;
+.container p {
+    margin-right: 100px;
+    padding-right: 150px;
+    font-size: 20px;
 }
 
 .aboutme {

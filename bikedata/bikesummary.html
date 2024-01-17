@@ -13,13 +13,107 @@
     <body>
 
         <div class="sidenav">
+            <h3>Summary Navigation</h3>
+            <a href="#intro">-Intro</a>
+            <a href="#dataset">-Dataset</a>
+            <a href="#technology">-Technology</a>
+            <a href="#spreadsheet">-Excel</a>
+            <a href="#breakdown">-Breakdown</a>
+            <a href="#future">-Future Analysis</a>
             <h3>Site Navigation</h3>
             <a href="../index.html">-Main Page</a>
         </div>
 
         <div class ="main">
-            <h1>Coming soon!</h1>
+            <!-- Intro -->
+            <div>
+                <h1 id="intro">Bike Sales in Europe Excel Dashboard</h1>
+                <p>
+                    The goal of this project was to build a dynamic dashboard in Microsoft Excel. The dataset was obtained
+                    from Kaggle and contains sales records for a bicycle shop in Europe. The data has time metrics, customer
+                    demographics, product encoding, and financial information for each transaction. I would like the dashboard
+                    to answer the following questions:
+                </p>
+                <ul>
+                    <li>Can you show the total profit, orders, and items sold?</li>
+                    <li>What do our financials look like year over year?</li>
+                    <li>When are we most profitable?</li>
+                    <li>What are our top and bottom 5 products?</li>
+                    <li>What countries do we make the most profit?</li>
+                    <li>Do we have more male or female customers?</li>
+                </ul>
+            </div>
+            <!-- Dataset -->
+            <div>
+                <h1 id="dataset">Data Set</h1>
+                <a href="https://www.kaggle.com/datasets/sadiqshah/bike-sales-in-europe" target="_blank" rel="noopener noreferrer">Bike Sales in Europe Data Set from Kaggle</a>
+            </div>
+            <!-- Technology -->
+            <div>
+                <h1 id="technology">Technology</h1>
+                <ul>
+                    <li>Microsoft Excel</li>
+                    <li>HTML / CSS</li>
+                </ul>
+            </div>
+            <!-- Spreadsheet -->
+            <div>
+                <h1 id="spreadsheet">Dashboard</h1>
+                <p>Looks like the Excel Spreadsheet embedding squeezes the dashboard a bit. </p>
+                <br>
+                <iframe src="https://onedrive.live.com/embed?resid=64EEAD7B57E32C7C%21579&authkey=!ALOETAIGpUDOzRQ&em=2" width="100%" height="860" frameborder="0" scrolling="no"></iframe>
+            </div>
+            <!-- Breakdown -->
+            <div>
+                <h1 id="breakdown">Breakdown</h1>
+                <p>
+                    This was a straightforward project, first I checked the data for missing values with find
+                    and replace function. The data set had no missing values within the records, but it does have two
+                    five month gaps at the end of 2014 and 2016. Neither year has any sales data after July 31st. I
+                    would need to check back in with the stakeholder to see if the missing data is placed in another file.
+                    If not I could continue with the dashboard as is, or infer the sales data on the summary charts by
+                    using the mean from prior years. For this dashboard project I continued with the gap in sales data.
+                </p>
+                <p>
+                    The data had most of what I was looking for regarding time metrics. I did create
+                    two columns to shorten the Day and Month text to the shorthand formats using the Text function. The
+                    final thing I noticed while looking over the data was a slight mismatch regarding the financial
+                    values. The first record shows an Order Quantity of 8 and Unit Price of 120, this should come out
+                    to 960, but reports the Revenue of the transaction at 950. I wrote a few columns to check the math
+                    on the Cost and Revenue columns, then calculated the percentage difference between the reported value
+                    and the calculated value. These range from 0 to 27%, my first thought was that it is probably due to
+                    some type of sales tax. I come from a computer science background, so this maybe a common occurrence,
+                    I would have to check with a stakeholder. In our toy example, we just decided it was sales tax, and
+                    varied based on country and sale total.
+                </p>
+                <p>
+                    Once the data was situated, I simply created the pivot tables aggregating over the columns required to
+                    answer the questions above. To create the KPI measures asked in the first question I used text boxes,
+                    but quickly learned you cannot utilize the GETPIVOTDATA function to populate the element. So, I created
+                    reference cells below the pivot tables and fetched the references. Next I created the pivot charts,
+                    standard procedure on that front, though I did find a pretty cool formula to format the data labels
+                    on the visualizations: <b>[>=1000000] $#,##0.0,,"M";[<1000000] $#,##0.0,"K";General </b>. This will set the
+                    trailing M for million or K for thousand based on the value of the field in the pivot table. The final
+                    step was to setup the timeline and slicers, report the connections to the underlying pivot tables, and
+                    finalize the dashboard worksheet.
+                </p>
+            </div>
+            <!-- Future Analysis -->
+            <div>
+                <h1 id="future">Future Analysis</h1>
+                <p>
+                    If I had unlimited resources, then I would like to see the brands of the products included in the
+                    sales records. For example, the bikes category has generic products like Mountain-100 black, 42. It
+                    would be interesting to see which brand's consumers lean towards. While the customer demographic
+                    information is good in the data set, a customer table with a primary key on customer id would also be
+                    a welcomed addition. We could look at how often customers purchase the same brand of their previously
+                    purchased bike. The final thing I'm going to look into is utilizing one of the dashboard software’s,
+                    either Tableau or Power BI. It can get a bit tedious doing the dashboard layout, and I imagine
+                    software dedicated to the task has more powerful features. The project met my goals, I was able to
+                    create a dynamically updating dashboard with slicers and timelines, and I got to learn that you can
+                    insert logic into the number formatter for visualizations.
+                </p>
+            </div>
         </div>
-
     </body>
 </html>
